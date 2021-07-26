@@ -28,7 +28,7 @@ def array_entered_numbers(list_of_numbers: list) -> int:
 def max_number(list_of_numbers: list) -> int:
     max_number = max(list_of_numbers)
     print(max_number)
-    max_number(list_of_numbers)
+    return max(list_of_numbers)
 
 def second_max(list_of_numbers: list) -> int:
     max_number = max(list_of_numbers)
