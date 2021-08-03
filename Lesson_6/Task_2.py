@@ -16,3 +16,5 @@ def what_time_is_it_now():
     current_time = task_counter.strftime('%H:%M')
     print(current_time)
     return current_time
+
+what_time_is_it_now()
