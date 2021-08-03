@@ -1,8 +1,5 @@
-def key_value(list) -> list:
-    ind = 0
-    result = {}
-    list =['a', 'b', 'c', 'd', 'e']
-    for value in list:
-        result[ind] = value
-        ind += 1
-print(key_value(list))
+list_nums = ['a', 'b', 'c', 'd', 'e']
+def key_value(list_nums):
+    return dict(enumerate(list_nums))
+
+print(key_value(list_nums))
